@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: action/checkout@v4
       - name: cache
-        uses: action/cache@v4.0.0
+        uses: actions/cache@v4.0.0
         with:
           path: ~/.npm
           key: buildcache
